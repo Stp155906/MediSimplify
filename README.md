@@ -1,4 +1,4 @@
-# MediSimplify
+<img width="1182" alt="Screenshot 2023-11-06 at 8 30 27 PM" src="https://github.com/Stp155906/MediSimplify/assets/71754706/eb2a7573-7aa7-49d1-958b-1c45d1e5edc6"># MediSimplify
 IOS Capstone Project
 
 # **Assignment 1: Initial GitHub Repository Setup**
@@ -107,16 +107,16 @@ IOS Capstone Project
 
 ---
 
----
+
 
 1. **Sprint 1: Set up the project and integrate basic Read-only Networking.**
-    - Initialize the project repository and set up the basic Swift project.
-    - Implement basic networking tools, possibly using Alamofire or URLSession.
-    - Connect to the NLM API and ensure you can retrieve raw article data.
+    - Initialize the project repository and set up the basic Swift project. ✅
+    - Implement basic networking tools, possibly using Alamofire or URLSession. 
+    - Connect to the NLM API and ensure you can retrieve raw article data.  ✅
 2. **Sprint 2: Design and implement the Home Screen.**
-    - Sketch or wireframe the UI/UX for the home screen.
-    - Build the Home Screen UI in SwiftUI or UIKit.
-    - Implement the search bar functionality and display search results in a list or table view.
+    - Sketch or wireframe the UI/UX for the home screen. ✅
+    - Build the Home Screen UI in SwiftUI or UIKit. ✅
+    - Implement the search bar functionality and display search results in a list or table view. 
 3. **Sprint 3: Build the Article Detail screen.**
     - Design the Article Detail view.
     - Implement the navigation from the list item to the detail view.
@@ -125,5 +125,8 @@ IOS Capstone Project
     - Integrate with the OpenAI GPT API and create prompts for data summarization.
     - Display summarized data in a dedicated section of the Article Detail screen or in a separate view.
     - Implement local data persistence to save user searches, favorite articles, or any other relevant data using tools like CoreData or Realm.
+---
+## Wireframes
+<img width="1182" alt="Screenshot 2023-11-06 at 8 31 06 PM" src="https://github.com/Stp155906/MediSimplify/assets/71754706/4ffc4fab-89be-4833-a0f7-7cae0c9246cb">
 
 
