@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E46B6BC92AFB102700AE15FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B6BC82AFB102700AE15FC /* AppDelegate.swift */; };
+		E46B6BCB2AFB102700AE15FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B6BCA2AFB102700AE15FC /* SceneDelegate.swift */; };
+		E46B6BCD2AFB102700AE15FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B6BCC2AFB102700AE15FC /* ViewController.swift */; };
+		E46B6BD02AFB102700AE15FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46B6BCE2AFB102700AE15FC /* Main.storyboard */; };
+		E46B6BD32AFB102700AE15FC /* MediSimplify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E46B6BD12AFB102700AE15FC /* MediSimplify.xcdatamodeld */; };
+		E46B6BD52AFB102B00AE15FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46B6BD42AFB102B00AE15FC /* Assets.xcassets */; };
+		E46B6BD82AFB102B00AE15FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46B6BD62AFB102B00AE15FC /* LaunchScreen.storyboard */; };
+		E46B6BE32AFB102B00AE15FC /* MediSimplifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B6BE22AFB102B00AE15FC /* MediSimplifyTests.swift */; };
+		E46B6BED2AFB102B00AE15FC /* MediSimplifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B6BEC2AFB102B00AE15FC /* MediSimplifyUITests.swift */; };
+		E46B6BEF2AFB102B00AE15FC /* MediSimplifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B6BEE2AFB102B00AE15FC /* MediSimplifyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E46B6BDF2AFB102B00AE15FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E46B6BBD2AFB102700AE15FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E46B6BC42AFB102700AE15FC;
+			remoteInfo = MediSimplify;
+		};
+		E46B6BE92AFB102B00AE15FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E46B6BBD2AFB102700AE15FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E46B6BC42AFB102700AE15FC;
+			remoteInfo = MediSimplify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E46B6BC52AFB102700AE15FC /* MediSimplify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediSimplify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46B6BC82AFB102700AE15FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E46B6BCA2AFB102700AE15FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E46B6BCC2AFB102700AE15FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E46B6BCF2AFB102700AE15FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E46B6BD22AFB102700AE15FC /* MediSimplify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediSimplify.xcdatamodel; sourceTree = "<group>"; };
+		E46B6BD42AFB102B00AE15FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E46B6BD72AFB102B00AE15FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E46B6BD92AFB102B00AE15FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46B6BDE2AFB102B00AE15FC /* MediSimplifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediSimplifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46B6BE22AFB102B00AE15FC /* MediSimplifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSimplifyTests.swift; sourceTree = "<group>"; };
+		E46B6BE82AFB102B00AE15FC /* MediSimplifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediSimplifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46B6BEC2AFB102B00AE15FC /* MediSimplifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSimplifyUITests.swift; sourceTree = "<group>"; };
+		E46B6BEE2AFB102B00AE15FC /* MediSimplifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSimplifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E46B6BC22AFB102700AE15FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46B6BDB2AFB102B00AE15FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46B6BE52AFB102B00AE15FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E46B6BBC2AFB102700AE15FC = {
+			isa = PBXGroup;
+			children = (
+				E46B6BC72AFB102700AE15FC /* MediSimplify */,
+				E46B6BE12AFB102B00AE15FC /* MediSimplifyTests */,
+				E46B6BEB2AFB102B00AE15FC /* MediSimplifyUITests */,
+				E46B6BC62AFB102700AE15FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E46B6BC62AFB102700AE15FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E46B6BC52AFB102700AE15FC /* MediSimplify.app */,
+				E46B6BDE2AFB102B00AE15FC /* MediSimplifyTests.xctest */,
+				E46B6BE82AFB102B00AE15FC /* MediSimplifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E46B6BC72AFB102700AE15FC /* MediSimplify */ = {
+			isa = PBXGroup;
+			children = (
+				E46B6BC82AFB102700AE15FC /* AppDelegate.swift */,
+				E46B6BCA2AFB102700AE15FC /* SceneDelegate.swift */,
+				E46B6BCC2AFB102700AE15FC /* ViewController.swift */,
+				E46B6BCE2AFB102700AE15FC /* Main.storyboard */,
+				E46B6BD42AFB102B00AE15FC /* Assets.xcassets */,
+				E46B6BD62AFB102B00AE15FC /* LaunchScreen.storyboard */,
+				E46B6BD92AFB102B00AE15FC /* Info.plist */,
+				E46B6BD12AFB102700AE15FC /* MediSimplify.xcdatamodeld */,
+			);
+			path = MediSimplify;
+			sourceTree = "<group>";
+		};
+		E46B6BE12AFB102B00AE15FC /* MediSimplifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E46B6BE22AFB102B00AE15FC /* MediSimplifyTests.swift */,
+			);
+			path = MediSimplifyTests;
+			sourceTree = "<group>";
+		};
+		E46B6BEB2AFB102B00AE15FC /* MediSimplifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E46B6BEC2AFB102B00AE15FC /* MediSimplifyUITests.swift */,
+				E46B6BEE2AFB102B00AE15FC /* MediSimplifyUITestsLaunchTests.swift */,
+			);
+			path = MediSimplifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E46B6BC42AFB102700AE15FC /* MediSimplify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46B6BF22AFB102B00AE15FC /* Build configuration list for PBXNativeTarget "MediSimplify" */;
+			buildPhases = (
+				E46B6BC12AFB102700AE15FC /* Sources */,
+				E46B6BC22AFB102700AE15FC /* Frameworks */,
+				E46B6BC32AFB102700AE15FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediSimplify;
+			productName = MediSimplify;
+			productReference = E46B6BC52AFB102700AE15FC /* MediSimplify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E46B6BDD2AFB102B00AE15FC /* MediSimplifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46B6BF52AFB102B00AE15FC /* Build configuration list for PBXNativeTarget "MediSimplifyTests" */;
+			buildPhases = (
+				E46B6BDA2AFB102B00AE15FC /* Sources */,
+				E46B6BDB2AFB102B00AE15FC /* Frameworks */,
+				E46B6BDC2AFB102B00AE15FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E46B6BE02AFB102B00AE15FC /* PBXTargetDependency */,
+			);
+			name = MediSimplifyTests;
+			productName = MediSimplifyTests;
+			productReference = E46B6BDE2AFB102B00AE15FC /* MediSimplifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E46B6BE72AFB102B00AE15FC /* MediSimplifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46B6BF82AFB102B00AE15FC /* Build configuration list for PBXNativeTarget "MediSimplifyUITests" */;
+			buildPhases = (
+				E46B6BE42AFB102B00AE15FC /* Sources */,
+				E46B6BE52AFB102B00AE15FC /* Frameworks */,
+				E46B6BE62AFB102B00AE15FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E46B6BEA2AFB102B00AE15FC /* PBXTargetDependency */,
+			);
+			name = MediSimplifyUITests;
+			productName = MediSimplifyUITests;
+			productReference = E46B6BE82AFB102B00AE15FC /* MediSimplifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E46B6BBD2AFB102700AE15FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E46B6BC42AFB102700AE15FC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E46B6BDD2AFB102B00AE15FC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E46B6BC42AFB102700AE15FC;
+					};
+					E46B6BE72AFB102B00AE15FC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E46B6BC42AFB102700AE15FC;
+					};
+				};
+			};
+			buildConfigurationList = E46B6BC02AFB102700AE15FC /* Build configuration list for PBXProject "MediSimplify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E46B6BBC2AFB102700AE15FC;
+			productRefGroup = E46B6BC62AFB102700AE15FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E46B6BC42AFB102700AE15FC /* MediSimplify */,
+				E46B6BDD2AFB102B00AE15FC /* MediSimplifyTests */,
+				E46B6BE72AFB102B00AE15FC /* MediSimplifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E46B6BC32AFB102700AE15FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46B6BD82AFB102B00AE15FC /* LaunchScreen.storyboard in Resources */,
+				E46B6BD52AFB102B00AE15FC /* Assets.xcassets in Resources */,
+				E46B6BD02AFB102700AE15FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46B6BDC2AFB102B00AE15FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46B6BE62AFB102B00AE15FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E46B6BC12AFB102700AE15FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46B6BCD2AFB102700AE15FC /* ViewController.swift in Sources */,
+				E46B6BD32AFB102700AE15FC /* MediSimplify.xcdatamodeld in Sources */,
+				E46B6BC92AFB102700AE15FC /* AppDelegate.swift in Sources */,
+				E46B6BCB2AFB102700AE15FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46B6BDA2AFB102B00AE15FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46B6BE32AFB102B00AE15FC /* MediSimplifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46B6BE42AFB102B00AE15FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46B6BEF2AFB102B00AE15FC /* MediSimplifyUITestsLaunchTests.swift in Sources */,
+				E46B6BED2AFB102B00AE15FC /* MediSimplifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E46B6BE02AFB102B00AE15FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E46B6BC42AFB102700AE15FC /* MediSimplify */;
+			targetProxy = E46B6BDF2AFB102B00AE15FC /* PBXContainerItemProxy */;
+		};
+		E46B6BEA2AFB102B00AE15FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E46B6BC42AFB102700AE15FC /* MediSimplify */;
+			targetProxy = E46B6BE92AFB102B00AE15FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E46B6BCE2AFB102700AE15FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46B6BCF2AFB102700AE15FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E46B6BD62AFB102B00AE15FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46B6BD72AFB102B00AE15FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E46B6BF02AFB102B00AE15FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E46B6BF12AFB102B00AE15FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E46B6BF32AFB102B00AE15FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediSimplify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.MediSimplify.MediSimplify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E46B6BF42AFB102B00AE15FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediSimplify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.MediSimplify.MediSimplify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E46B6BF62AFB102B00AE15FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.MediSimplify.MediSimplifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediSimplify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediSimplify";
+			};
+			name = Debug;
+		};
+		E46B6BF72AFB102B00AE15FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.MediSimplify.MediSimplifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediSimplify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediSimplify";
+			};
+			name = Release;
+		};
+		E46B6BF92AFB102B00AE15FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.MediSimplify.MediSimplifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediSimplify;
+			};
+			name = Debug;
+		};
+		E46B6BFA2AFB102B00AE15FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FRDZF569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Github.MediSimplify.MediSimplifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediSimplify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E46B6BC02AFB102700AE15FC /* Build configuration list for PBXProject "MediSimplify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46B6BF02AFB102B00AE15FC /* Debug */,
+				E46B6BF12AFB102B00AE15FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46B6BF22AFB102B00AE15FC /* Build configuration list for PBXNativeTarget "MediSimplify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46B6BF32AFB102B00AE15FC /* Debug */,
+				E46B6BF42AFB102B00AE15FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46B6BF52AFB102B00AE15FC /* Build configuration list for PBXNativeTarget "MediSimplifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46B6BF62AFB102B00AE15FC /* Debug */,
+				E46B6BF72AFB102B00AE15FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46B6BF82AFB102B00AE15FC /* Build configuration list for PBXNativeTarget "MediSimplifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46B6BF92AFB102B00AE15FC /* Debug */,
+				E46B6BFA2AFB102B00AE15FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E46B6BD12AFB102700AE15FC /* MediSimplify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E46B6BD22AFB102700AE15FC /* MediSimplify.xcdatamodel */,
+			);
+			currentVersion = E46B6BD22AFB102700AE15FC /* MediSimplify.xcdatamodel */;
+			path = MediSimplify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E46B6BBD2AFB102700AE15FC /* Project object */;
+}
