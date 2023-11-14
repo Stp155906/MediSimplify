@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MediSimplify
+//  nlmapp
 //
-//  Created by Shantalia Z on 11/7/23.
+//  Created by Shantalia Z on 10/17/23.
 //
 
 import UIKit
